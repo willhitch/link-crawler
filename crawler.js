@@ -24,7 +24,7 @@ var fullHookup = 0;
 var fullTimer = 0;
 var biannualTank = 0;
 
-for (i = 0; i < links.length; i++) {
+for (var i = 0; i < links.length; i++) {
 	// Sort Through Links and Find Products
 	var text;
 	// Once Links Match Product Push InnerHTML to Array
